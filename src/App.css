@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.service-heading{
+     font-size: 40px;
+     text-align: center;
+     font-family: 'Abhaya Libre';
+     font-size: 40px;
+}
+.card-title{
+    font-size: 19px;
+    font-family: 'Exo';
+    text-align: center;
+    line-height: 28px;
+   
+}
+.card-text{
+  font-size: 15px;
+  font-family: 'Exo';
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  font-style: normal;
+  text-align: center;
+  
+}
+.btn-primary{
+  font-size: 16px !important;
+  font-family: 'Roboto'!important;
+  text-align: center !important;
+  border: 2px solid #D3BD9B !important; 
+  background-color: #AC997C !important;
+  color: azure;
+  width: 148px !important;
+  height:40px !important;
+  border-radius: 30px !important;
+  
+}
+.card{
+ 
+  text-align: center;
+
+}
+.card-img-top{
+  width:100%;
+  text-align: center !important;
+  margin: auto;
+  padding:0px 100px;
+}
+@media (min-width:1400px) {
+  .card-img-top{
+    padding: none;
+  }
+  
+}
+.abtus-heading{
+  margin-top: 10%;
+  font-family: 'Abhaya Libre';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  padding-left: 10%;
+  padding-bottom: 3%;
+}
+.abtus-para{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Exo';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  text-align: center;
+}
+.abtus-img{
+  width: 60%;
+  height: auto;
+  
+}
+@media (max-width:1400px) {
+  .abtus-img{
+   
+    width: 80%;
+  }
+ 
+}
+@media (max-width:990px) {
+  .abtus-img{
+    width: 100%;
+  }
+}
+@media (max-width:768px) {
+  .abtus-img{
+    width: 80%;
+    padding-left: 15%;
+  }
+}
+.gallery-heading{
+  text-align: center;
+  font-family: 'Abhaya Libre';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.gall-pic{
+  width:80% ;
+  
+}
+@media (max-width:768px) {
+  .gall-pic{
+    padding-left: 15%;
+  }
+}
+.myvid{
+  border-radius: 5%;
+}
+.vid-heading{
+  font-family: 'Abhaya Libre';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.nickel{
+  font-family: 'Exo';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  
+}
+.testimg{
+  margin-top: 10%;
+  
+ 
+}
+.testimonial-img{
+  width:100%;
+  
+  border-radius: 15px;
+}
+.client-name{
+  font-family: 'Exo';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34.08px;
+}
+.client-testimonial{
+  font-family: 'Exo';
+  font-weight: 400;
+  font-size:18px ;
+  line-height: 25.56px;
+}
+.full-img{
+  background-image: url(./components/images/image-14.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+  
+
+}
+.all-in-1{
+  padding: 250px;
+  
+}
+@media (max-width:576px) {
+  .all-in-1{
+    padding: 150px;
+  }
+  .re1{
+    display: none;
+  }
+  .logo-text{
+    font-weight: 900;
+    font-family: 'Exo';
+    font-style: bold;
+    font-size: 20px;
+  }
+  
+}
+@media (min-width:576px) {
+  .logo-text{
+    display: none;
+  }
+}
+.navbar-brand{
+  margin-left: 20%;
+}
+
+.navbar ul li a {
+  color: rgb(0, 0, 0);
+  font-family: 'Exo';
+  font-weight: 600;
+  font-size: 15px;
+ 
+}
+.pioneers{
+  color: azure;
+  font-family: 'Exo';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 54px;
+  margin-left: 6%;
+  
+}
+.pioneers2{
+  color: azure;
+  font-family: 'Abhaya libre';
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 74px;
+  
+}
+.btn-primary2{
+  font-size: 16px !important;
+  font-family: 'Roboto'!important;
+  text-align: center !important; 
+  background-color: #AC997C !important;
+  color: azure !important;
+  width: 148px !important;
+  height:40px !important;
+  border-radius: 30px !important;
+  margin-left: 7%;
+  
+}
+.enquiry{
+  text-align: center;
+
+}
+.b-enquiry{
+  text-align: center;
+  color: grey;
+}
+.myform{
+  padding: 5%;
+}
+.mycol{
+  padding: 3%;
+}
+ul li{
+  list-style: none;
+  font-size: 14px;
+  font-family: 'Exo';
+  font-weight: 400;
+}
+.footer-bg{
+  background-color: #AC997C;
+  color: white;
+ 
+}
+.p-padding{
+  padding-left: 30%;
+}
+.contactus{
+  text-align: center;
+  font-family: 'Abhaya Libre';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+}
+.loc-pic{
+  margin-left: -10%;
+}
+.email-pic{
+  margin-left: -10%;
+}
+.call-pic{
+  margin-left: -10%;
+}
+.time-pic{
+  margin-left: -10%;
+}
+.big{
+  font-family: 'Exo';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin-left: 2%;
+  
+}
+.small{
+  font-family: 'Exo';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  
+}
+.form-control{
+  
+  margin-bottom: 2%;
+}
+.btn-primary3{
+  font-size: 16px !important;
+  font-family: 'Roboto'!important;
+  text-align: center !important;
+  border: 2px solid #D3BD9B !important; 
+  background-color: #AC997C !important;
+  color: azure;
+  width: 148px !important;
+  height:40px !important;
+  border-radius: 50px !important;
+ text-align: center !important;
+}
+.map-img{
+  width:60%;
+  height: auto;
+}
+.my-icons{
+  color: #AC997C;
+  font-size: 50px;
+}
