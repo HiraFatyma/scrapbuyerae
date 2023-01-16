@@ -33,88 +33,88 @@ import tractest from './components/images/tractor.png';
 function App() {
   return (
     <>
-     <Navbar/>
-     <Back/>
-     
-     
-      <h2  id="#services" className='service-heading'>Services</h2>
+      <Navbar />
+      <Back />
 
-      <div className='container-fluid'>
+
+      <h2 id="#services" className='service-heading'>Services</h2>
+
+      <div className='container'> 
         <div className='row d-flex justify-content-center flex-wrap'>
-          <div className='col-xxl-3'>
+          <div className='col-md-4 '>
             <Card imgsrc={mscrap}
               title="Metal Scrap"
               descrip="We provide buying services for metal scrap and help you fetch the best value for your material." />
           </div>
-          <div className='col-xxl-3'>
+          <div className='col-md-4 '>
             <Card imgsrc={cews}
               title="Cable-Electric Wire Scrap"
               descrip="We provide buying services for cable-electric wire scrap that are usually discarded by electricians." />
           </div>
-          <div className='col-xxl-3'>
+          <div className='col-md-4 '>
             <Card imgsrc={escrap}
               title="E-Scrap"
               descrip="We are engaged in buying E-Scrap for our esteemed clients at best market prices." />
           </div>
-          <div className='container-fluid'>
-            <div className='row d-flex justify-content-center flex-wrap'>
-              <div className='col-md-3'>
-                <Card imgsrc={oms}
-                  title="Old-Machinery Scrap"
-                  descrip="When you need to sell old machinery, we help you get the best value currently floating in the market." />
-              </div>
-              <div className='col-md-3'>
-                <Card imgsrc={bs}
-                  title="Battery Scrap"
-                  descrip="We provide buying services for battery scrap that are usually discarded by electricians." />
-              </div>
-              <div className='col-md-3'>
-                <Card imgsrc={cs}
-                  title="Construction Scrap"
-                  descrip="We take care of all construction scrap and help you fetch the best value for all of your materials." />
-              </div>
-            </div>
+          <div className='col-md-4 '>
+            <Card imgsrc={oms}
+              title="Old-Machinery Scrap"
+              descrip="When you need to sell old machinery, we help you get the best value currently floating in the market." />
+          </div>
+          <div className='col-md-4 '>
+            <Card imgsrc={bs}
+              title="Battery Scrap"
+              descrip="We provide buying services for battery scrap that are usually discarded by electricians." />
+          </div>
+          <div className='col-md-4 '>
+            <Card imgsrc={cs}
+              title="Construction Scrap"
+              descrip="We take care of all construction scrap and help you fetch the best value for all of your materials." />
           </div>
         </div>
       </div>
 
 
 
-      
-            <Abt imgsrc={comp} />
-          
+
+      <Abt imgsrc={comp} />
+
 
 
 
       <h2 id="gallery" className='gallery-heading'>Gallery</h2>
+      <Gall />
 
-      <div className='container-fluid'>
+      <div className='container gall-pic'>
         <div className='row d-flex justify-content-center flex-wrap'>
-          <div className='col-md-3 mb-5'>
+          <div className='col-md-4 mb-5'>
             <Gall className='img-responsive' imgsrc={irust} />
           </div>
-          <div className='col-md-3 mb-5'>
+          <div className='col-md-4 mb-5'>
             <Gall className='img-responsive' imgsrc={ijrust} />
           </div>
-          <div className='col-md-3 mb-5'>
+          <div className='col-md-4 mb-5'>
             <Gall className='img-responsive' imgsrc={iscrappic} />
           </div>
         </div>
       </div>
 
-      
-     
+
+
+
+
 
       <Vid />
       <Test imgsrc={tractest} />
-     
+
       <Cont />
-      <div className='container-fluid d-flex justify-content-center align-content-center'>
-        
-        <Mapimg imgsrc={mymap}/>
-        
+      <div className='container-fluid d-flex justify-content-center align-content-center mt-5'>
+
+        <Mapimg imgsrc={mymap} />
+
+
       </div>
-      <Foot/>
+      <Foot />
 
 
 

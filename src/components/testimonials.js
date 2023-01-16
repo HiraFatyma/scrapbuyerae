@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Blockquote from '@yozora/react-blockquote'
+import {Quote} from '@yozora/react-blockquote'
 import '@yozora/react-blockquote/lib/esm/index.css'
 
 import { Container } from 'react-bootstrap';

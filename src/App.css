@@ -43,6 +43,7 @@
 }
 .card-img-top{
   width:100%;
+  
   text-align: center !important;
   margin: auto;
   padding:0px 100px;
@@ -72,7 +73,7 @@
   text-align: center;
 }
 .abtus-img{
-  width: 60%;
+  width: 100%;
   height: auto;
   
 }
@@ -102,13 +103,29 @@
   line-height: 56px;
 }
 .gall-pic{
-  width:80% ;
-  
+  width:100% ;
+  align-content: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
 }
+.gall-slider{
+  align-content: center;
+  
+
+}
+
+
 @media (max-width:768px) {
   .gall-pic{
-    padding-left: 15%;
+    /* padding-left: 15%; */
+    display: none;
   }
+}
+@media (min-width:769px) {
+  .gall-slider{
+    display: none;
+  }
+  
 }
 .myvid{
   border-radius: 5%;
@@ -157,7 +174,7 @@
 
 }
 .all-in-1{
-  padding: 250px;
+  padding: 10%;
   
 }
 @media (max-width:576px) {
@@ -245,6 +262,11 @@ ul li{
   color: white;
  
 }
+.ft-bold{
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Exo';
+}
 .p-padding{
   padding-left: 30%;
 }
@@ -299,7 +321,7 @@ ul li{
  text-align: center !important;
 }
 .map-img{
-  width:60%;
+  width:70%;
   height: auto;
 }
 .my-icons{

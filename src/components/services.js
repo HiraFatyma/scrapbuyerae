@@ -13,12 +13,12 @@ const Card = (props) => {
                 toggle={() => setModal(!modal)}>
                 <ModalHeader
                     toggle={() => setModal(!modal)}>
-
+                     
                 </ModalHeader>
 
                 <ModalBody>
                     <form>
-                        <h3 className="enquiry">Send Enquiry</h3>
+                    <h3 className="enquiry">Send Enquiry</h3>
                         <p className="b-enquiry">Write to us for any business enquiries</p>
                         <Row className="myform">
                             <div className="col mycol" lg={12}>
@@ -117,7 +117,7 @@ const Card = (props) => {
 
 
             <div className="card mb-5 border-0 ">
-                <img src={props.imgsrc} className="card-img-top" alt="..." />
+                <img src={props.imgsrc} className="image-fluid" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text text-center">{props.descrip}</p>

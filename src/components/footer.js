@@ -17,8 +17,9 @@ class Foot extends Component{
           
        <div class="row d-flex justify-content-between m-5 mb-2">
                 <div className=" col-sm-12 col-md-3">
-                  <h5>USEFUL LINKS</h5>
+                  
                   <ul>
+                    <li className="ft-bold">USEFUL LINK</li>
                     <li>HOME</li>
                     <li>SERVICES</li>
                     <li>GALLERY</li>
